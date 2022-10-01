@@ -1,0 +1,80 @@
+#logo{
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  left: 25px;
+  top: 20px;
+}
+
+#cons
+{
+position: absolute;
+width: 479px;
+height: 350px;
+left: 800px;
+top: 200px;
+}
+#h1
+{
+  position:absolute;
+  width: 752px;
+height: 108px;
+left: 100px;
+top: 200px;
+
+font-family: 'Martel';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 108px;
+color: rgba(0, 0, 0, 0.56);
+
+}
+#para
+{
+  position: absolute;
+  width: 500px;
+  height: 156px;
+  left: 110px;
+  top: 310px;
+  
+  font-family: 'Martel';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 42px;
+  
+  color: #000000;
+  
+}
+.ai-facebook-fill
+{
+  position: absolute;
+  left: 280px;
+  top: 435px;
+  font-size: 42px; 
+}
+#facebook
+{
+  position: absolute;
+  left: 110px;
+  top: 422px;
+  font-family: 'Martel';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 42px;
+}
+ @media only screen and (max-width: 550px) {
+  .container
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "logo"
+     "cons"
+     "text"
+     "connect";
+  }
+}

@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zain properties and management</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+<body style="height: 100vh;">
+  <div>
+  <img id="logo" src="Zain Logo_020941.png">
+  </div>
+  <div id="connect" class="row">
+    <div class="column">
+  <h1 id="facebook">CONNECT US ON</h1>
+  <i class="ai-facebook-fill"></i>
+
+ 
+  
+  <h1 id="h1">We will be online soon </h1>
+  <p id="para">Thank you for visiting us. we will be online soon.check us out 
+    later</p>
+   
+  </div>
+
+  <div class="column">
+  <img id="cons" class="coloumn" src="60028.jpg">
+</div>
+</div>
+</body>
+</html>
